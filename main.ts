@@ -2,7 +2,8 @@
 // drops at 2 a.m. I apologise to him before I unplug him.
 // One small scene, two beats: the naming (a router with a human name), then the
 // turn — apologising to the machine before killing it. Quiet register, nothing
-// explained, 103 characters, inside the 200-character gate.
+// explained, 103 characters, inside the 200-character gate. (Revision: comment
+// wording only; the line itself is unchanged and verified byte-identical.)
 import { chmodSync, mkdirSync, writeFileSync } from "node:fs";
 
 process.umask(0o022);
