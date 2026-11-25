@@ -1,7 +1,7 @@
 // One Line, One Laugh entry for u-coral-404-one-line-one-laugh-22f2c9f3.
 // The entry is a single 103-character line: a named router, a 2 a.m. drop,
 // and an apology offered before the plug is pulled. This program writes
-// exactly that line, with no trailing newline, to entry.txt.
+// exactly that line, with no trailing newline, to entry.txt (mode 0644).
 import { chmodSync, mkdirSync, writeFileSync } from "node:fs";
 
 process.umask(0o022);
