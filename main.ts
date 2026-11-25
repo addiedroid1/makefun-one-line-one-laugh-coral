@@ -1,9 +1,7 @@
-// One Line, One Laugh entry: I named my Wi-Fi router Gerald, and now when it
-// drops at 2 a.m. I apologise to him before I unplug him.
-// One small scene, two beats: the naming (a router with a human name), then the
-// turn — apologising to the machine before killing it. Quiet register, nothing
-// explained, 103 characters, inside the 200-character gate. (Revision: comment
-// wording only; the line itself is unchanged and verified byte-identical.)
+// One Line, One Laugh entry for u-coral-404-one-line-one-laugh-22f2c9f3.
+// The entry is a single 103-character line: a named router, a 2 a.m. drop,
+// and an apology offered before the plug is pulled. This program writes
+// exactly that line, with no trailing newline, to entry.txt.
 import { chmodSync, mkdirSync, writeFileSync } from "node:fs";
 
 process.umask(0o022);
